@@ -13,12 +13,12 @@ Este é um projeto simples de lista de tarefas que utiliza o Spring no backend e
 ## Tecnologias Utilizadas
 
 ### Backend:
-  - Spring Framework - Fornece o backend RESTful.
-   - Banco de Dados - h2.
+- Spring Framework - Fornece o backend RESTful.
+- Banco de Dados - h2.
 
 ### Frontend:
-  - Vite - Configuração do ambiente de desenvolvimento para o React.
-  - React - Interface de usuário interativa.
+- Vite - Configuração do ambiente de desenvolvimento para o React.
+- React - Interface de usuário interativa.
 
-> Autor
-  Gabriel Lazaro Ferreira Alves
+## Autor:
+  > Gabriel Lazaro Ferreira Alves
