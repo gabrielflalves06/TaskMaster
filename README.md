@@ -1,4 +1,4 @@
-Lista de Tarefas - Projeto Fullstack
+TaskMaster - Projeto Fullstack
 Este é um projeto simples de lista de tarefas que utiliza o Spring no backend e Vite com React no frontend. O objetivo deste projeto é demonstrar minhas habilidades fullstack em uma aplicação prática e funcional.
 
 Funcionalidades
