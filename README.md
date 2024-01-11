@@ -10,11 +10,11 @@ Remover Tarefa: Exclusão de tarefas da lista.
 
 ### Backend:
 Spring Framework - Fornece o backend RESTful.
-Banco de Dados (Exemplo: MySQL, PostgreSQL, H2, etc.).
+Banco de Dados - h2.
 
 ### Frontend:
 Vite - Configuração do ambiente de desenvolvimento para o React.
-React - Interface de usuário interativa e responsiva.
+React - Interface de usuário interativa.
 
 ## Como Executar
 ### Backend
