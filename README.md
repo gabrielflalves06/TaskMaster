@@ -3,8 +3,11 @@ Este é um projeto simples de lista de tarefas que utiliza o Spring no backend e
 
 ## Funcionalidades
 Adicionar Tarefa: Os usuários podem adicionar novas tarefas à lista.
+
 Alterar Tarefa: Possibilidade de alterar tarefas.
+
 Remover Tarefa: Exclusão de tarefas da lista.
+
 Listar Tarefa: Listagem de todas as tarefas cadastradas;
 
 ## Tecnologias Utilizadas
