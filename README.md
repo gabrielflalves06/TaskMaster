@@ -2,13 +2,13 @@
 Este é um projeto simples de lista de tarefas que utiliza o Spring no backend e Vite com React no frontend. O objetivo deste projeto é demonstrar minhas habilidades fullstack em uma aplicação prática e funcional.
 
 ## Funcionalidades
-Adicionar Tarefa: Os usuários podem adicionar novas tarefas à lista.
+- Adicionar Tarefa: Os usuários podem adicionar novas tarefas à lista.
 
-Alterar Tarefa: Possibilidade de alterar tarefas.
+- Alterar Tarefa: Possibilidade de alterar tarefas.
 
-Remover Tarefa: Exclusão de tarefas da lista.
+- Remover Tarefa: Exclusão de tarefas da lista.
 
-Listar Tarefa: Listagem de todas as tarefas cadastradas;
+- Listar Tarefa: Listagem de todas as tarefas cadastradas;
 
 ## Tecnologias Utilizadas
 
