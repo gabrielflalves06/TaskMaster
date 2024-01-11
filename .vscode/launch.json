@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TaskMasterApplication<TaskMaster>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.TaskMaster.TaskMasterApplication",
+            "projectName": "TaskMaster",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

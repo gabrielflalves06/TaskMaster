@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}   
+
+.container-Alterar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    z-index: 1;
+    background: url("../../assets/Alterar.jpg") no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.container-body {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    color: #000;
+    border-radius: 10px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-Alterar .input-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 10px 0;
+}
+
+.input-container input,
+.input-container select {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(4, 4, 4, 0.2);
+    border-radius: 40px;
+    font-size: 16;
+    color: #000;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-container select {
+    appearance: none;
+}
+
+select:focus,
+input:focus {
+    border-color: #ffcc00;
+}
+
+.container-Alterar button {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.voltar {
+    display: flex;
+    align-self: start;
+    justify-content: center;
+
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'K2D Extra Bold';
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+svg {
+    height: 32px;
+}
