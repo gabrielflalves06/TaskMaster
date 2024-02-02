@@ -13,7 +13,7 @@
     height: 100%;
     padding: 50px;
     z-index: 1;
-    background: url("../../assets/Tarefas.jpg") no-repeat;
+    background: url("/Tarefas.jpg") no-repeat;
     min-height: 100vh;
     background-position: center;
     background-size: cover;
@@ -72,7 +72,7 @@ a>svg {
     overflow-y: auto;
     overflow-x: auto;
     width: 100%;
-    
+
 }
 
 P {
@@ -102,7 +102,7 @@ table {
     border-radius: 5px;
     border-collapse: separate;
     border-spacing: 0 10px;
-    
+
 }
 
 th {
@@ -149,4 +149,43 @@ a {
 
 svg {
     height: 30px;
+}
+
+.App {
+    text-align: center;
+    padding: 50px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal.show {
+    display: block;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: black;
 }

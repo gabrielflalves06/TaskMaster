@@ -52,6 +52,7 @@ export default function Cadastro() {
     return (
         <body className="container-cadastro">
             <div className="container-body">
+                
                 <div className="voltar">
                     <Link to="/">
                         <h1><svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -70,7 +71,7 @@ export default function Cadastro() {
 
                     <div className="input-container">
                         <label htmlFor="titulo">titulo da tarefa:* </label>
-                        <input id="titulo" type="text" name="titulo" value={titulo} onChange={(e) => setTitulo(e.target.value)}></input>
+                        <input id="titulo" type="text" name="titulo" maxLength={20} value={titulo} onChange={(e) => setTitulo(e.target.value)}></input>
                     </div>
 
                     <div className="input-container">
@@ -103,7 +104,11 @@ export default function Cadastro() {
                         CADASTRAR
                     </button>
                 </form>
+
+                
             </div>
+
+            
         </body>
     );
 }

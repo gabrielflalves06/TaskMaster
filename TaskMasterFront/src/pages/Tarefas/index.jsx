@@ -9,6 +9,16 @@ export default function Tarefas() {
     const [tarefas, setTarefas] = useState([])
     const navigate = useNavigate();
 
+    const [alertVisible, setAlertVisible] = useState(true);
+
+    const showAlert = () => {
+        setAlertVisible(true);
+    };
+
+    const closeAlert = () => {
+        setAlertVisible(false);
+    };
+
     async function listar() {
         try {
             const response = await api.get("/Tarefas")
@@ -36,13 +46,13 @@ export default function Tarefas() {
 
     }
 
-    async function alterarTarefa(tarefas){
+    async function alterarTarefa(tarefas) {
         navigate("/Alterar/", { state: tarefas.id });
     }
     return (
         <body className="container-tarefas">
             <div className="container">
-
+                
                 <div className="cabecalho">
                     <h1>Tarefas</h1>
                     <Link className="Cadastro" to="/cadastro"><svg width="34" height="34" viewBox="0 0 34 34" fill="none"
@@ -83,7 +93,7 @@ export default function Tarefas() {
                                     <td>{tarefas.prioridade}</td>
                                     <td>{tarefas.status}</td>
                                     <td className="final">
-                                        <button onClick={() => alterarTarefa(tarefas) }>
+                                        <button onClick={() => alterarTarefa(tarefas)}>
                                             <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -107,6 +117,7 @@ export default function Tarefas() {
                     )}
                 </div>
             </div>
+
         </body >
     )
 }

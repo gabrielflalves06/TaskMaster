@@ -35,7 +35,6 @@ export default function Alterar() {
         if (idRecebido) {
             listar(idRecebido);
         }
-
     }, [])
 
 
